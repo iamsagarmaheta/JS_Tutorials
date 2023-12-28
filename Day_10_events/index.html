@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Hello JS</title>
+		<script src="index.js"></script>
+	</head>
+	<body onload="alert('loading page...')"> <!--  -->
+		<h1>Hello World!</h1>
+		<form>
+			Enter Name : <input onkeypress="onKeyPressHandler(event)" type="text" id="username" /> <br/>
+			Enter Mobile : <input onkeypress="onKeyPressHandler(event)" onchange="console.log('hello')" type="number" id="mobile" /> <br/>
+			Enter Email : <input onkeyup="console.log('keup')" onkeydown="console.log('keydown')" type="email" id="emailaddress" /> <br/>
+		</form>
+		<button onclick="onButtonClickHandler(event)">Click Me</button>
+	</body>
+<html>
